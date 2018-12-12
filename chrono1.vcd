@@ -1,0 +1,128 @@
+$date
+     Dec 12, 2018       16:23:25
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- Sep 17 2018 10:03:09
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    4  aaaaa  Ina [3:0]  $end
+$var wire    4  aaaab  inb [3:0]  $end
+$var wire    1  aaaac  cin       $end
+$var wire    4  aaaad  s [3:0]  $end
+$var wire    1  aaaae  cout       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+b100 aaaaa
+b11 aaaab
+1aaaac
+b1000 aaaad
+0aaaae
+$end
+
+#50000
+b101 aaaaa
+b111 aaaab
+b1101 aaaad
+
+#100000
+b10 aaaaa
+b1000 aaaab
+b1011 aaaad
+
+#150000
+b100 aaaaa
+b11 aaaab
+b1000 aaaad
+
+#200000
+b101 aaaaa
+b111 aaaab
+b1101 aaaad
+
+#250000
+b10 aaaaa
+b1000 aaaab
+b1011 aaaad
+
+#300000
+b100 aaaaa
+b11 aaaab
+b1000 aaaad
+
+#350000
+b101 aaaaa
+b111 aaaab
+b1101 aaaad
+
+#400000
+b10 aaaaa
+b1000 aaaab
+b1011 aaaad
+
+#450000
+b100 aaaaa
+b11 aaaab
+b1000 aaaad
+
+#500000
+b101 aaaaa
+b111 aaaab
+b1101 aaaad
+
+#550000
+b10 aaaaa
+b1000 aaaab
+b1011 aaaad
+
+#600000
+b100 aaaaa
+b11 aaaab
+b1000 aaaad
+
+#650000
+b101 aaaaa
+b111 aaaab
+b1101 aaaad
+
+#700000
+b10 aaaaa
+b1000 aaaab
+b1011 aaaad
+
+#750000
+b100 aaaaa
+b11 aaaab
+b1000 aaaad
+
+#800000
+b101 aaaaa
+b111 aaaab
+b1101 aaaad
+
+#850000
+b10 aaaaa
+b1000 aaaab
+b1011 aaaad
+
+#900000
+b100 aaaaa
+b11 aaaab
+b1000 aaaad
+
+#950000
+b101 aaaaa
+b111 aaaab
+b1101 aaaad
+
